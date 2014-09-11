@@ -9,10 +9,11 @@ A simple tool for getting random palette from ColourLover API. This will return 
 ##Example : 
 
 
-
+<pre><code>
 ColourLovers.getRandomPalette(this, onColor);
 
 function onColor(colorData) {
   console.log("Colors Hex value : " , colorData.colors)
   console.log("Colors Percentage : " , colorData.colorWidths)
 }
+</code></pre>
