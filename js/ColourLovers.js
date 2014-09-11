@@ -16,7 +16,12 @@ ColourLovers.callback = function(data) {
 	}
 
 	if(this._callback) this._callback.call(this._scope, {colors:returnColors, colorWidths:colorWidths});
-	document.getElementsByTagName('HEAD')[0].removeChild(this.script);
+	try {
+		document.getElementsByTagName('HEAD')[0].removeChild(this.script);	
+	} catch(e) {
+		
+	}
+	
 }
 
 
