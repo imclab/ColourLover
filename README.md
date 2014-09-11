@@ -3,7 +3,7 @@
 
 A simple tool for getting random palette from ColourLover API. This will return a random color palette from the top 50 palettes of ColourLover's selection.
 
-####Usage : ColourLovers.getRandomPalette([Scope of your callback function], [callback function]);
+Usage : ColourLovers.getRandomPalette([Scope of your callback function], [callback function]);
 
 
 ##Example : 
